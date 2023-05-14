@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Weather forecast</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.15/dist/css/uikit.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="./assets/style.css" />
+    </head>
+    <body>
+        <header class=" uk-navbar-container uk-navbar-transparent header">
+            <h1>Weather Dashboard</h1>
+        </header>
+        <div class="uk-column-1-2">
+            <div>
+                <h2>Search for a City:</h2>
+                <form class="uk-search uk-search-default" id="form">
+                    <input class="uk-search-input" type="search" id="search" placeholder="City name" aria-label="">
+                    <button class="btn uk-button uk-button-primary">Search</button>
+                </form>
+                <hr>
+                <p class="city_searched">Search History.</p>
+                <!-- <button class="city_searched_history"></button> -->
+
+            </div>
+            
+            <!-- <div class="uk-column-1-2 uk-column-divider"></div> -->
+
+            <div>
+                <div>
+                    <!-- <h3>Local results will be show here</h3> -->
+                    <section id="current"></section>
+                        <h3 class="current_city"></h3>
+                        <p class="current_date"></p>
+                        <img  class="current_icon" alt="current_weather_icon">
+                        <p class="current_temperature"></p>
+                        <p class="current_wind"></p>
+                        <p class="current_humidity"></p>
+                </div>
+                <div>
+                    <h3>5-Day Forecast:</h4>
+                        <section class="forecast_7"></section>
+                        <p class="date_7"></p>
+                        <img  class="icon_7" alt="weather_icon">
+                        <p class="temperature_7"></p>
+                        <p class="wind_7"></p>
+                        <p class="humidity_7"></p>
+
+                        <section class="forecast_15"></section>
+                        <p class="date_15"></p>
+                        <img  class="icon_15" alt="weather_icon">
+                        <p class="temperature_15"></p>
+                        <p class="wind_15"></p>
+                        <p class="humidity_15"></p>
+
+                        <section class="forecast_23"></section>
+                        <p class="date_23"></p>
+                        <img  class="icon_23" alt="weather_icon">
+                        <p class="temperature_23"></p>
+                        <p class="wind_23"></p>
+                        <p class="humidity_23"></p>
+                    
+                        <section class="forecast_31"></section>
+                        <p class="date_31"></p>
+                        <img  class="icon_31" alt="icon">
+                        <p class="temperature_31"></p>
+                        <p class="wind_31"></p>
+                        <p class="humidity_31"></p>
+
+                        <section class="forecast_39"></section>
+                        <p class="date_39"></p>
+                        <img  class="icon_39" alt="icon">
+                        <p class="temperature_39"></p>
+                        <p class="wind_39"></p>
+                        <p class="humidity_39"></p>
+                    
+                    </div>
+            </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+
+        <script type="text/javascript" src="./assets/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.15/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.15/dist/js/uikit-icons.min.js"></script>
+    </body>
+</html>

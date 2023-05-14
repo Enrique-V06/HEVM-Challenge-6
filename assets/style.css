@@ -1,0 +1,33 @@
+*{
+    
+    font-family: 'Bruno Ace', cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form{
+    font-size: 18px;
+    width: 1800px;
+    max-width: 100%;
+
+}
+
+.header{
+    background-color: #1e87f0;
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    display: block;
+    font-family: 'Bruno Ace', cursive;
+    color: aliceblue;
+}
+
+btn{
+    width: 40px;
+    max-width: 100%;
+    color: blue;
+
+}
+h2{
+    font-family: 'Bruno Ace', cursive;
+}
