@@ -84,7 +84,7 @@ $(function () {
 
         function CreateBtn(){
             var cityBtn = document.createElement("button");
-            cityBtn.classList.add("btn", "btn-outline-secondary", "btn-lg", 'city_searched_history');
+            cityBtn.classList.add("btn", "btn-primary", "btn-sm", 'city_searched_history');
             cityBtn.setAttribute("id",city);
             cityBtn.setAttribute("onClick","showHist(this.id)");
             cityBtn.innerText = city;

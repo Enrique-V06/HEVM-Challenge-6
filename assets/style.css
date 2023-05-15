@@ -1,6 +1,7 @@
 *{
     
     font-family: 'Bruno Ace', cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: ;
 }
 
 .form{
@@ -30,4 +31,14 @@ btn{
 }
 h2{
     font-family: 'Bruno Ace', cursive;
+}
+.card{
+    background-color: #c0bbbb;
+}
+img{
+    text-indent:-9999px
+}
+button{
+    padding: 5px;
+    margin: 5px;
 }
