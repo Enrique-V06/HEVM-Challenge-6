@@ -4,8 +4,8 @@ const search = document.getElementById('search')
 
 
 /// api URL ///
-const apiGeo = 'http://api.openweathermap.org/geo/1.0/direct?q=';
-const apiForecast = 'http://api.openweathermap.org/data/2.5/forecast?lat='
+const apiGeo = 'https://api.openweathermap.org/geo/1.0/direct?q=';
+const apiForecast = 'https://api.openweathermap.org/data/2.5/forecast?lat='
 const apiCurr = 'https://api.openweathermap.org/data/2.5/weather?lat='
 const apiKey = '62fcc5e65140208a39c01d6de285dca8';
 var lat = "";
